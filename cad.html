@@ -2,157 +2,165 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cadastro - Barbearia Felippe</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro - Barbearia Felippe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-  <style>
-    body {
-      background-color: #4E342E;
-      color: #fff;
-      font-family: 'Poppins', sans-serif;
-    }
+    <style>
+        body {
+            background-color: #4E342E;
+            color: #4E342E;
+            font-family: 'Poppins', sans-serif;
+        }
 
-    .navbar {
-      background-color: #3E2723 !important;
-    }
+        .navbar {
+            background-color: #4E342E !important;
+        }
 
-    .offcanvas.text-bg-dark {
-      background-color: #3E2723 !important;
-    }
+        .offcanvas.text-bg-dark {
+            background-color: #4E342E !important;
+        }
 
-    h2,
-    h5 {
-      color: #FFD54F;
-      font-weight: 600;
-    }
+        h2,
+        h5 {
+            color: white;
+            font-weight: 600;
+        }
 
-    .card {
-      background-color: #5D4037;
-      border: none;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
+        .card {
+            background-color: #3E2723;
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
 
-    .form-label {
-      color: #FFD54F;
-    }
+        .form-label {
+            color: white;
+        }
 
-    .form-control {
-      background-color: #6D4C41;
-      border: none;
-      color: white;
-    }
+        .form-control {
+            background-color: #4E342E;
+            border: none;
+            color: white;
+        }
 
-    .form-control::placeholder {
-      color: #d7ccc8;
-    }
+        .form-control::placeholder {
+            color: #d7ccc8;
+        }
 
-    .form-control:focus {
-      background-color: #795548;
-      box-shadow: 0 0 0 0.25rem rgba(255, 213, 79, 0.4);
-      color: white;
-    }
+        .form-control:focus {
+            background-color: #795548;
+            box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.4);
+            color: white;
+        }
 
-    .btn-primary {
-      background-color: #FFD54F;
-      border: none;
-      color: #3E2723;
-      font-weight: 600;
-    }
+        .btn-primary {
+            background-color: white;
+            border: none;
+            color: #3E2723;
+            font-weight: 600;
+        }
 
-    .btn-primary:hover {
-      background-color: #FFC107;
-      color: #3E2723;
-    }
+        .btn-primary:hover {
+            background-color: white;
+            color: #3E2723;
+        }
 
-    footer {
-      background-color: #3E2723;
-      color: #fff;
-      padding: 20px 0;
-    }
-  </style>
+        footer {
+            background-color: #3E2723;
+            color: #fff;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 
 <body>
-  <!-- Navegação -->
-  <nav class="navbar navbar-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-warning" href="index.html">Barbearia FELIPPE</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-        aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title text-warning" id="offcanvasDarkNavbarLabel">Menu</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
+    <!-- Navegação -->
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-white" href="index.html">Barbearia FELIPPE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link active text-white" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Sobre/Contato</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="cad.html">Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item"><a class="nav-link active text-warning" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link text-warning" href="#">Sobre/Contato</a></li>
-            <li class="nav-item"><a class="nav-link text-warning" href="cad.html">Cadastro</a></li>
-          </ul>
+    </nav>
+
+    <!-- Formulário de Cadastro -->
+    <section class="container mt-5 pt-5">
+        <h2 class="text-center mb-4">Cadastro de Cliente</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card p-4">
+                    <h5 class="text-center mb-4">Preencha seus dados</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Digite seu telefone"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirmar Senha</label>
+                            <input type="password" class="form-control" id="confirmPassword"
+                                placeholder="Confirme sua senha" required>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" required>
+                            <label class="form-check-label text-light" for="terms">Aceito os termos de uso</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 mt-2">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
+    </section>
 
-  <!-- Formulário de Cadastro -->
-  <section class="container mt-5 pt-5">
-    <h2 class="text-center mb-4">Cadastro de Cliente</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="card p-4">
-          <h5 class="text-center mb-4">Preencha seus dados</h5>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Nome Completo</label>
-              <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo" required>
-            </div>
+    <!-- Rodapé -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Barbearia Felippe. Todos os direitos reservados!</p>
+    </footer>
 
-            <div class="mb-3">
-              <label for="email" class="form-label">E-mail</label>
-              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
-            </div>
-
-            <div class="mb-3">
-              <label for="phone" class="form-label">Telefone</label>
-              <input type="text" class="form-control" id="phone" placeholder="Digite seu telefone" required>
-            </div>
-
-            <div class="mb-3">
-              <label for="password" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="password" placeholder="Digite sua senha" required>
-            </div>
-
-            <div class="mb-3">
-              <label for="confirmPassword" class="form-label">Confirmar Senha</label>
-              <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua senha" required>
-            </div>
-
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="terms" required>
-              <label class="form-check-label text-light" for="terms">Aceito os termos de uso</label>
-            </div>
-
-            <button type="submit" class="btn btn-primary w-100 mt-2">Cadastrar</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Rodapé -->
-  <footer class="text-center mt-5">
-    <p>&copy; 2025 Barbearia Felippe. Todos os direitos reservados!</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
